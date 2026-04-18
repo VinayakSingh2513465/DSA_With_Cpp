@@ -42,7 +42,7 @@ public:
             cout<<"Queue is EMPTY\n";
             return -1;
         }
-        return arr[r];
+        return arr[f];
     }
 
     bool empty() {
