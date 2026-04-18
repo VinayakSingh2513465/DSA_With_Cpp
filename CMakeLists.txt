@@ -19,4 +19,5 @@ add_executable(c__ main.cpp
         "recursion/power function/powerFunction.cpp"
         "recursion/recursion question/tiling.cpp"
         "recursion/recursion question/duplicateString.cpp"
-        queue/queue_LL.cpp)
+        queue/queue_LL.cpp
+        queue/Circular_Queue.cpp)
