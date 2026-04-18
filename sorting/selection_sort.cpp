@@ -1,0 +1,27 @@
+#include<iostream>
+
+using namespace std;
+
+void SelectionSort(int arr[] , int n) {
+    // O(nlogn)
+    for (int i = 0; i < n-1; ++i) {
+        int minIdx = i;
+        // loop for find min....
+        for (int j = i+1; j <n; ++j) {
+            if (arr[j] < arr[minIdx]) {
+                minIdx = j;
+            }
+        }
+        swap(arr[i],arr[minIdx]);
+    }
+    for (int i = 0; i < n; ++i) {
+        cout<<arr[i]<<",";
+    }
+}
+
+int main() {
+    int arr[5] = {5,4,1,3,2};
+    int n = sizeof(arr)/sizeof(int);
+    SelectionSort(arr,n);
+    return 0;
+}
