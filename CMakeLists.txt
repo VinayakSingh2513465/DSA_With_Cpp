@@ -20,4 +20,7 @@ add_executable(c__ main.cpp
         "recursion/recursion question/tiling.cpp"
         "recursion/recursion question/duplicateString.cpp"
         queue/queue_LL.cpp
-        queue/Circular_Queue.cpp)
+        queue/Circular_Queue.cpp
+        queue/Queue_STL.cpp
+        queue/QueueUsing_Two_Stacks.cpp
+        queue/Stack_using_two_queue.cpp)
