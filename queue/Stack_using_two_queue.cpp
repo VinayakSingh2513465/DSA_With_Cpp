@@ -8,7 +8,8 @@ class Stack {
     queue<int> q2;
 
 public:
-    void push(int data) {
+    void push(int data)
+    {
         while (!q1.empty()) {
             q2.push(q1.front());
             q1.pop();
