@@ -8,7 +8,8 @@ class queue {
 
 public:
 
-    void push(int data) {
+    void push(int data)
+    {
         // S1 -> S2
 
         while (!s1.empty()) {
