@@ -23,4 +23,6 @@ add_executable(c__ main.cpp
         queue/Circular_Queue.cpp
         queue/Queue_STL.cpp
         queue/QueueUsing_Two_Stacks.cpp
-        queue/Stack_using_two_queue.cpp)
+        queue/Stack_using_two_queue.cpp
+        "doubly ended linked list/doublyLinkedList.cpp"
+        "Binary trees/preOrderBinaryTree.cpp")

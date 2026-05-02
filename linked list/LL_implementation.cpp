@@ -14,7 +14,7 @@ public:
         next = NULL;
     }
     ~Node() {
-        //cout<<"node destructor for data = "<<data<<endl;
+        cout<<"node destructor for data = "<<data<<endl;
         if (next != NULL) {
             delete next;
             next=NULL;
@@ -32,7 +32,7 @@ public:
         tail = NULL;
     }
     ~list() {
-        //cout<<"distructor of list\n"<<endl;
+        cout<<"distructor of list\n"<<endl;
         if (head != NULL) {
             delete head;
             head = NULL;
@@ -64,7 +64,6 @@ public:
             tail = newNode;
         }
     }
-
     void printList() {
         Node* temp = head;
         while (temp!=NULL) {
@@ -78,14 +77,14 @@ public:
         Node* newNode = new Node(val);
 
         Node* temp = head;
-        for (int i = 0; i < pos-1; ++i) {
+        for (int i = 1; i < pos-1; ++i) {
             if (temp ==  NULL) {
                 cout<<"Position is invalid\n";
                 return;
             }
             temp = temp->next;
         }
-        //temp is now at pos-1 i.e prev/left
+        //temp is now at pos-1  prev/left
         newNode->next = temp->next;
         temp->next = newNode;
     }
@@ -189,7 +188,7 @@ int main() {
     ll.push_back(4);
     ll.push_back(5);
     ll.printList();
-    ll.insert(100,25);
+    ll.insert(6,6);
     ll.printList();
     //ll.pop_back();
     //cout<<ll.searchItr(2)<<endl;
