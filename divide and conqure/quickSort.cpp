@@ -18,7 +18,8 @@ int partition(int arr[] , int si , int ei) {
     //pivotIdx = i;
     return i;
 }
-
+// TC in Average case is O(nlog n)
+// Tc in worst case is O(n^2)
 void quickSort(int arr[] , int si ,int ei) {
     if (si>=ei) {
         return;
