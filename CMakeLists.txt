@@ -25,4 +25,13 @@ add_executable(c__ main.cpp
         queue/QueueUsing_Two_Stacks.cpp
         queue/Stack_using_two_queue.cpp
         "doubly ended linked list/doublyLinkedList.cpp"
-        "Binary trees/preOrderBinaryTree.cpp")
+        "Binary trees/preOrderBinaryTree.cpp"
+        "Binary trees/preorder.cpp"
+        "Binary trees/inOrder.cpp"
+        "Binary trees/postOrder.cpp"
+        "Binary trees/levelOrder.cpp"
+        "Binary trees/heightOfBt.cpp"
+        "Binary trees/countOfNode.cpp"
+        "Binary trees/sumOfNodes.cpp"
+        "divide and conqure/mergeSort1.cpp"
+        "divide and conqure/quickSort.cpp")
