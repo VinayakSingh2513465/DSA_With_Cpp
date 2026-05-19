@@ -1,6 +1,4 @@
 #include<iostream>
-
-
 using namespace std;
 // class node....created
 // also node is a custom data type in c++ each class you create it's a custom datatype.......

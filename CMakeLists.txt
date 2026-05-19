@@ -34,4 +34,6 @@ add_executable(c__ main.cpp
         "Binary trees/countOfNode.cpp"
         "Binary trees/sumOfNodes.cpp"
         "divide and conqure/mergeSort1.cpp"
-        "divide and conqure/quickSort.cpp")
+        "divide and conqure/quickSort.cpp"
+        Graph/graphByAdjacencyList.cpp
+        "linked list/By using STL/list_stl.cpp")
