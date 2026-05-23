@@ -36,4 +36,5 @@ add_executable(c__ main.cpp
         "divide and conqure/mergeSort1.cpp"
         "divide and conqure/quickSort.cpp"
         Graph/graphByAdjacencyList.cpp
-        "linked list/By using STL/list_stl.cpp")
+        "linked list/By using STL/list_stl.cpp"
+        Graph/BFScode_DFScode.cpp)
