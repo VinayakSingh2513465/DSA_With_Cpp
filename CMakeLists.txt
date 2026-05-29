@@ -38,4 +38,7 @@ add_executable(c__ main.cpp
         Graph/graphByAdjacencyList.cpp
         "linked list/By using STL/list_stl.cpp"
         Graph/BFScode_DFScode.cpp
-        Graph/practiceGraph.cpp)
+        Graph/practiceGraph.cpp
+        binarySearchTree/insertBuildBst.cpp
+        binarySearchTree/searchInBst.cpp
+        binarySearchTree/deleteANode.cpp)

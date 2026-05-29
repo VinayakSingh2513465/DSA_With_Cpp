@@ -12,7 +12,7 @@ public:
         next = NULL;
     }
     ~Node() {
-        cout<<"node destructor for data = "<<data<<endl;
+        //cout<<"node destructor for data = "<<data<<endl;
         if (next != NULL) {
             delete next;
             next=NULL;
@@ -30,7 +30,7 @@ public:
         tail = NULL;
     }
     ~list() {
-        cout<<"distructor of list\n"<<endl;
+        //cout<<"distructor of list\n"<<endl;
         if (head != NULL) {
             delete head;
             head = NULL;
@@ -194,5 +194,9 @@ int main() {
     ll.removeNth(3);
     ll.printList();
     ll.reverse();
+    ll.printList();
+
+    ll.pop_back();
+    ll.pop_front();
     ll.printList();
 }
